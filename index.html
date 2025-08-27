@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <script src="carrinho.js"></script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="img/logo.png" alt="Sneakers do F" height="100px" width="100px">
+        </div>
+        <nav class="menu-navegacao">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Quem Somos</a></li>
+                <li><a href="tenisM.html">Tênis Masculino</a></li>
+                <li><a href="tenisF.html">Tênis Feminino</a></li>
+                <li><a href="marcas.html">Marcas</a></li>
+                <li><a href="register.html">Registrar</a></li>
+                <li><a href="#"><img src="img/lupa.png" alt="Pesquisar" height="15px" width="15px"></a></li>
+                <li><a href="carrinho.html"><img src="img/carrinho.png" alt="" height="30px" width="30px"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="destaque">
+        <div class="texto-destaque">
+            <h1>Encontre o seu estilo nos passos certos</h1>
+            <button>Ver Lançamentos</button>
+        </div>
+        <img src="img/tenis-hero.avif" alt="Tênis em destaque" height="500px" width="600px">
+    </section>
+
+    <h2 class="titulo-secao">Lançamentos</h2>
+    <div class="produtos">
+        <div class="cartao-produto">
+            <img src="img/modelo1.png" alt="Modelo 1" height="200px" width="250px">
+            <h3>Modelo 1</h3>
+            <p>R$ 299,90</p>
+            <button onclick="adicionarCarrinhoRedicionando('modelo 1', 299,90)">Adicionar ao carrinho e ir</button>
+        </div>
+        <div class="cartao-produto">
+            <img src="img/modelo2.jpg" alt="Modelo 2" height="200px" width="250px">
+            <h3>Modelo 2</h3>
+            <p>R$ 349,90</p>
+            <button onclick="adicionarCarrinhoRedicionando('modelo 2', 349,90)">Adicionar ao carrinho e ir</button>
+        </div>
+        <div class="cartao-produto">
+            <img src="img/modelo3.jpg" alt="Modelo 3" height="200px" width="250px">
+            <h3>Modelo 3</h3>
+            <p>R$ 399,90</p>
+        <button onclick="adicionarCarrinhoRedicionando('modelo 3', 399,90)">Adicionar ao carrinho e ir</button>
+        </div>
+        <div class="cartao-produto">
+            <img src="img/modelo4.jpg" alt="Modelo 4" height="200px" width="250px">
+            <h3>Modelo 4</h3>
+            <p>R$ 279,90</p>
+        <button onclick="adicionarCarrinhoRedicionando('modelo 4', 279,90)">Adicionar ao carrinho e ir</button>
+        </div>
+    </div>
+
+    <footer class="rodape">
+        <div class="links-rodape">
+            <strong>Links Úteis</strong>
+            <a href="#">Política de Trocas</a>
+            <a href="#">Rastreamento de Pedidos</a>
+            <a href="#">Fale Conosco</a>
+        </div>
+        <div class="boletim">
+            <input type="email" placeholder="Seu e-mail">
+            <button>Inscrever-se</button>
+        </div>
+    </footer>
+
+
+        
+
+    
+
+
+  
+</body>
+</html>

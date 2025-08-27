@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers do F - Tênis Femininos</title>
+    <link rel="stylesheet" href="tenisF.css">
+    <script src="carrinho.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="img/logo.png" alt="Sneakers do F" height="100px" width="100px">
+        </div>
+        <nav class="menu-navegacao">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Quem Somos</a></li>
+                <li><a href="tenisM.html">Tênis Masculino</a></li>
+                <li><a href="tenisF.html" class="ativo">Tênis Feminino</a></li>
+                <li><a href="marcas.html">Marcas</a></li>
+                <li><a href="register.html">Registrar</a></li>
+                <li><a href="#"><img src="img/lupa.png" alt="Pesquisar" height="15px" width="15px"></a></li>
+                <li><a href="carrinho.html"><img src="img/carrinho.png" alt="" height="30px" width="30px"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>  
+        <h1 class="titulo-secao">Tênis Femininos</h1>
+        <div class="produtos">
+            <div class="cartao-produto">
+                <img src="img/tenisF1.avif" alt="Tênis Feminino 1" height="490"  width="490px">
+                <h3>Tênis Casual Rosa</h3>
+                <p>R$ 289,90</p>
+                <button onclick="adicionarCarrinhoRedicionando('Tênis Casual', 289.90)">Adicionar ao carrinho e ir</button>
+            </div>
+            <div class="cartao-produto">
+                <img src="img/tenisF2.webp" alt="Tênis Feminino 2" height="490"  width="490px">
+                <h3>Tênis Esportivo Light</h3>
+                <p>R$ 329,90</p>
+                <button onclick="adicionarCarrinhoRedicionando('Tênis Esportivo', 329.90)">Adicionar ao carrinho e ir</button>
+            </div>
+            <div class="cartao-produto">
+                <img src="img/tenisF3.webp" alt="Tênis Feminino 3" height="490"  width="490px">
+                <h3>Tênis Street Style</h3>
+                <p>R$ 379,90</p>
+                <button onclick="adicionarCarrinhoRedicionando('Tênis Street Style', 379.90)">Adicionar ao carrinho e ir</button>
+            </div>
+            <div class="cartao-produto">
+                <img src="img/tenisF4.webp" alt="Tênis Feminino 4" height="490"  width="490px">
+                <h3>Tênis Fashion</h3>
+                <p>R$ 299,90</p>
+                <button onclick="adicionarCarrinhoRedicionando('Tênis Fashion', 299.90)">Adicionar ao carrinho e ir</button>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="rodape">
+        <div class="links-rodape">
+            <strong>Links Úteis</strong>
+            <a href="#">Política de Trocas</a>
+            <a href="#">Rastreamento de Pedidos</a>
+            <a href="#">Fale Conosco</a>
+        </div>
+        <div class="boletim">
+            <input type="email" placeholder="Seu e-mail">
+            <button>Inscrever-se</button>
+        </div>
+    </footer>
+
+</body>
+</html>

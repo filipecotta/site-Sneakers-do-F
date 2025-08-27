@@ -1,0 +1,239 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+}
+
+.cabecalho {
+    background-color: #cce4f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap ;
+    }
+
+.logo img {
+    max-height: 100px;
+}
+
+.menu-navegacao ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-navegacao li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.menu-navegacao a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.menu-navegacao a:hover {
+    color: #002244;
+}
+
+.navegacao {
+    display: flex;
+    gap: 20px;
+}
+
+.navegacao a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.formulario-registro h1 {
+    text-align: center;
+    color: #002244;
+}
+
+.formulario-registro p {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.formulario-registro form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario-registro label {
+    font-weight: bold;
+}
+
+.formulario-registro input {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.formulario-registro button {
+    background-color: #002244;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+  footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #d0e8ff;
+      margin-top: 2rem;
+    }
+
+    .rodape {
+    background-color: #cce4f2;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    margin-top: 250px;
+}
+
+.links-rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.boletim {
+    display: flex;
+    gap: 10px;
+}
+
+.boletim input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.boletim button {
+    background-color: #002244;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cabecalho nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .formulario-registro {
+    margin: 20px;
+  }
+
+  .rodape {
+    flex-direction: column;
+  }
+
+  img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+
+.cabecalho nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  align-items: center;
+}
+
+.cabecalho nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+.formulario-registro {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.formulario-registro h1 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.formulario-registro label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.formulario-registro input,
+.formulario-registro button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.formulario-registro button {
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario-registro button:hover {
+  background: #2563eb;
+}
+
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.rodape .links-rodape,
+.rodape .boletim {
+  flex: 1 1 250px;
+}
+}

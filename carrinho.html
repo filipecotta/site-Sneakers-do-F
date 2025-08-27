@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+   <header class="cabecalho">
+    <div class="logo">
+        <img src="img/logo.png" alt="Sneakers do F" height="100px" width="100px">
+    </div>
+    <nav class="menu-navegacao">
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="about.html">Quem Somos</a></li>
+            <li><a href="tenisM.html">Tênis Masculino</a></li>
+            <li><a href="tenisF.html">Tênis Feminino</a></li>
+            <li><a href="marcas.html">Marcas</a></li>
+            <li><a href="register.html">Registrar</a></li>
+            <li><a href="#"><img src="img/lupa.png" alt="Pesquisar" height="15px" width="15px"></a></li>
+            <li><a href="#"><img src="img/carrinho.png" alt="" height="30px" width="30px"></a></li>
+        </ul>
+    </nav>
+</header>
+
+
+  <!--<h2>Produtos</h2>
+  <div class="produtos">
+    <div class="produto">
+      <img src="img/nike.webp" alt="Nike">
+      <h3>Tênis Nike Air</h3>
+      <p>R$ 350</p>
+      <button onclick="adicionarCarrinho('Tênis Nike Air', 350)">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="img/ADIDAS.webp" alt="Adidas">
+      <h3>Tênis Adidas</h3>
+      <p>R$ 280</p>
+      <button onclick="adicionarCarrinho('Tênis Adidas', 280)">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="img/pulma.webp" alt="Puma">
+      <h3>Tênis Puma</h3>
+      <p>R$ 260</p>
+      <button onclick="adicionarCarrinho('Tênis Puma', 260)">Comprar</button>
+    </div>
+
+    <div class="produto">
+      <img src="img/vans.png" alt="Vans">
+      <h3>Tênis Vans</h3>
+      <p>R$ 300</p>
+      <button onclick="adicionarCarrinho('Tênis Vans', 300)">Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="img/Mizuno.webp" alt="Mizuno">
+      <h3>Tênis Adidas</h3>
+      <p>R$ 200</p>
+      <button onclick="adicionarCarrinho('Tênis Mizuno', 200)">Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="img/renner.webp" alt="Mizuno">
+      <h3>Tênis Adidas</h3>
+      <p>R$ 200</p>
+      <button onclick="adicionarCarrinho('Tênis Mizuno', 200)">Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="img/Fila-Logo.jpg" alt="Mizuno">
+      <h3>Tênis Adidas</h3>
+      <p>R$ 200</p>
+      <button onclick="adicionarCarrinho('Tênis Mizuno', 200)">Comprar</button>
+    </div>
+    <div class="produto">
+      <img src="img/Reebok-Logo-Vector.jpg  " alt="Mizuno">
+      <h3>Tênis Adidas</h3>
+      <p>R$ 200</p>
+      <button onclick="adicionarCarrinho('Tênis Mizuno', 200)">Comprar</button>
+    </div>
+  </div>-->
+
+  <h2>Carrinho 🛒</h2>
+  <div id="carrinho">
+    <p id="mensagem">Seu carrinho está vazio</p>
+    <ul id="listaCarrinho"></ul>
+    <p><strong>Total: R$ <span id="total">0</span></strong></p>
+  </div>
+
+  <script src="carrinho.js"></script>
+  <script>
+    mostrarCarrinho(); // chamada direta
+    console.log("Função chamada!");
+  </script>
+</body>
+</html>
